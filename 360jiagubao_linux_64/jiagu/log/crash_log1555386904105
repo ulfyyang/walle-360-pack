@@ -1,0 +1,4 @@
+java.lang.NoClassDefFoundError: javafx/application/Platform
+	at com.qihoo.jiagu.h.F(qq:46)
+	at com.qihoo.jiagu.h.main(qq:83)
+	at com.qihoo.jiagu.CmdMain.main(ux:278)
