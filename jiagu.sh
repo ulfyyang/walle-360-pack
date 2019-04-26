@@ -11,7 +11,7 @@ start_time=`date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"`
 
 for APK_PATH in `ls ${TEMP}/*`
 do
-    ${JIAGUBAO_PATH}/java/bin/java -jar ${JIAGUBAO_PATH}/jiagu.jar -jiagu ${TEMP}/${APK_PATH} ${TEMP}
+    ${JIAGUBAO_PATH}/java/bin/java -jar ${JIAGUBAO_PATH}/jiagu.jar -jiagu ${APK_PATH} ${TEMP}
 done
 
 finish_time=`date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"`
