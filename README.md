@@ -1,19 +1,12 @@
 # 配置
 
-## 需要配置envirnment.sh中的环境
+## 配置根目录下bin/config.py
 
-- APP_APK_PATH              AndroidStudio的apk输出绝对路径
-- JIAGUBAO_PATH             加固宝绝对路径
-- TEMP                      临时文件夹绝对目录
-- REWALLE                   WALLE重新打包的绝对路径
-- OUTPUT                    最终输出目录
+- app_apk_output_path       AndroidStudio生成release包的output/apk绝对路径
+- jiagubao_jar_path         根目录下加固保中的jiagu.jar绝对路径，根据平台选择对应的版本
+- walle                     根目录下ProtectedApkResignerForWalle的绝对路径
 
----------------
-
-- JIAGUBAO_USERNAME       加固宝登录名
-- JIAGUBAO_PASSWORD       加固宝登录密码
-
-## config.py中的环境
+## 配置根目录下ProtectedApkResignerForWalle/config.py
 
 将签名文件拷贝到config文件夹中，并配置签名信息
 
@@ -22,11 +15,6 @@
 
 # 运行
 
-在工程根目录下以绝对路径的方式运行dabao.sh && jiagu.sh && shengchengqudao.sh，这些命令需要配置到path路径中。
-
-最终会在output下生成渠道包。
-
-
-- dabao.sh会生成apk并拷贝到temp临时目录
-- jiagu.sh会使用360加固进行加固
-- shengchengqudao.sh会写入渠道信息
+1. 通过AndroidStudio打release包
+2. 在根目录下bin目录中执行python jiagu360.py加固，相关的包会在ProtectedApkResignerForWalle/temp中
+2. 在根目录下bin目录中执行python shengchengqudao.py加入渠道，相关的包会在ProtectedApkResignerForWalle/output中
