@@ -18,3 +18,5 @@
 1. 在AndroidStudio中clean打release包
 2. 在根目录下bin目录中执行python jiagu360.py加固，相关的包会在ProtectedApkResignerForWalle/temp中
 2. 在根目录下bin目录中执行python shengchengqudao.py加入渠道，相关的包会在ProtectedApkResignerForWalle/output中
+
+> 注意：有的时候下载进度一直是0，这有可能时360程序的错误，应当关注加固的包的体积是否在一直增加，网速是否一直在走来确认是否加固失败
