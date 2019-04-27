@@ -15,6 +15,6 @@
 
 # 运行
 
-1. 通过AndroidStudio打release包
+1. 在AndroidStudio中clean打release包
 2. 在根目录下bin目录中执行python jiagu360.py加固，相关的包会在ProtectedApkResignerForWalle/temp中
 2. 在根目录下bin目录中执行python shengchengqudao.py加入渠道，相关的包会在ProtectedApkResignerForWalle/output中
