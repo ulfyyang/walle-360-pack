@@ -1,0 +1,36 @@
+{
+  "channelInfoList": [
+    {
+      "channel": "jijizhuyingshi.yingyongbao",
+      "alias": "吉吉猪影视-应用宝",
+      "extraInfo": {
+        "package_name_to_server": "jijizhuyingshi.yingyongbao",
+        "channel_name": "应用宝"
+      }
+    },
+    {
+      "channel": "jijizhuyingshi.anzhi",
+      "alias": "吉吉猪影视-安智",
+      "extraInfo": {
+        "package_name_to_server": "jijizhuyingshi.anzhi",
+        "channel_name": "安智"
+      }
+    },
+    {
+      "channel": "jijizhuyingshi.vivo",
+      "alias": "吉吉猪影视-vivo",
+      "extraInfo": {
+        "package_name_to_server": "jijizhuyingshi.vivo",
+        "channel_name": "vivo"
+      }
+    },
+    {
+      "channel": "jijizhuyingshi.360",
+      "alias": "吉吉猪影视-360",
+      "extraInfo": {
+        "package_name_to_server": "jijizhuyingshi.360",
+        "channel_name": "360"
+      }
+    }
+  ]
+}

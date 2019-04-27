@@ -1,0 +1,36 @@
+{
+  "channelInfoList": [
+    {
+      "channel": "mahuayingshidaquan.yingyongbao",
+      "alias": "麻花影视大全-应用宝",
+      "extraInfo": {
+        "package_name_to_server": "mahuayingshidaquan.yingyongbao",
+        "channel_name": "应用宝"
+      }
+    },
+    {
+      "channel": "mahuayingshidaquan.anzhi",
+      "alias": "麻花影视大全-安智",
+      "extraInfo": {
+        "package_name_to_server": "mahuayingshidaquan.anzhi",
+        "channel_name": "安智"
+      }
+    },
+    {
+      "channel": "mahuayingshidaquan.vivo",
+      "alias": "麻花影视大全-vivo",
+      "extraInfo": {
+        "package_name_to_server": "mahuayingshidaquan.vivo",
+        "channel_name": "vivo"
+      }
+    },
+    {
+      "channel": "mahuayingshidaquan.360",
+      "alias": "麻花影视大全-360",
+      "extraInfo": {
+        "package_name_to_server": "mahuayingshidaquan.360",
+        "channel_name": "360"
+      }
+    }
+  ]
+}
