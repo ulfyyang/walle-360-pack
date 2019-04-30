@@ -5,7 +5,9 @@
       "alias": "麻花影视大全-应用宝",
       "extraInfo": {
         "package_name_to_server": "mahuayingshidaquan.yingyongbao",
-        "channel_name": "应用宝"
+        "channel_name": "应用宝",
+        "app_id_to_shell": "123",
+        "package_name_to_shell": "com.demo"
       }
     },
     {
@@ -13,7 +15,9 @@
       "alias": "麻花影视大全-安智",
       "extraInfo": {
         "package_name_to_server": "mahuayingshidaquan.anzhi",
-        "channel_name": "安智"
+        "channel_name": "安智",
+        "app_id_to_shell": "123",
+        "package_name_to_shell": "com.demo"
       }
     },
     {
@@ -21,7 +25,9 @@
       "alias": "麻花影视大全-vivo",
       "extraInfo": {
         "package_name_to_server": "mahuayingshidaquan.vivo",
-        "channel_name": "vivo"
+        "channel_name": "vivo",
+        "app_id_to_shell": "123",
+        "package_name_to_shell": "com.demo"
       }
     },
     {
@@ -29,7 +35,9 @@
       "alias": "麻花影视大全-360",
       "extraInfo": {
         "package_name_to_server": "mahuayingshidaquan.360",
-        "channel_name": "360"
+        "channel_name": "360",
+        "app_id_to_shell": "123",
+        "package_name_to_shell": "com.demo"
       }
     }
   ]
