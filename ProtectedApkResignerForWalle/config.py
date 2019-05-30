@@ -18,6 +18,6 @@ channelsOutputFilePath = "./output"
 channelFilePath = ""
 #额外信息配置文件（绝对路径，例如/Users/mac/Desktop/walle360/config.json）
 #配置信息示例参看https://github.com/Meituan-Dianping/walle/blob/master/app/config.json
-extraChannelFilePath = "/home/ulfy/Programs/walle-360-pack/ProtectedApkResignerForWalle/config/config.json"
+extraChannelFilePath = "./config/config.json"
 #Android SDK buidtools path , please use above 25.0+
-sdkBuildToolPath = "/home/ulfy/Programs/android-sdk/build-tools/27.0.1"
+sdkBuildToolPath = "/home/ulfy/programs/android-sdk/build-tools/27.0.1"

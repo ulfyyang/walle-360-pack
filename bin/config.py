@@ -2,9 +2,9 @@
 import os
 
 # 路径配置
-app_apk_output_path = '/home/ulfy/Projects/android-studio/dxMovie-android/app/build/outputs/apk'
-jiagubao_jar_path = '/home/ulfy/Programs/walle-360-pack/360jiagubao_linux_64/jiagu/jiagu.jar'
-walle='/home/ulfy/Programs/walle-360-pack/ProtectedApkResignerForWalle'
+app_apk_output_path = '/home/ulfy/projects/android-studio/dxMovie-android/app/build/outputs/apk'
+jiagubao_jar_path = '/home/ulfy/projects/py-charm/walle-360-pack/360jiagubao_linux_64/jiagu/jiagu.jar'
+walle='/home/ulfy/projects/py-charm/walle-360-pack/ProtectedApkResignerForWalle'
 
 temp_dir = os.path.join(walle, 'temp')
 output = os.path.join(walle, 'output')
